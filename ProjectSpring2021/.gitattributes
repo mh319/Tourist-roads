@@ -1,0 +1,2 @@
+geonamesNOR.ttl filter=lfs diff=lfs merge=lfs -text
+geonames.ttl filter=lfs diff=lfs merge=lfs -text
