@@ -1,0 +1,16 @@
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Airport: Bronnoysund Bronnoy Airport
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Airport: Mosjøen Airport, Kjærstad
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Airport: Mo i Rana Airport, Røssvoll
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Airport: Sandnessjøen Airport, Stokka
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Airport: Hattfjelldal flyplass
+Turistveg: http://example.org/Tourism/Lofoten
+Airport: Leknes Airport
+Turistveg: http://example.org/Tourism/Lofoten
+Airport: Svolvær Airport, Helle
+Turistveg: http://example.org/Tourism/Lofoten
+Airport: Engeløy Airport, Grådussan

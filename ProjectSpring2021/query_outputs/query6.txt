@@ -1,0 +1,117 @@
+Attraksjon: http://example.org/Tourism/Bleik
+Hotel Geonames link: https://sws.geonames.org/10111326/
+Hotel name: Beach Houses Bleik Self Catering
+Attraksjon: http://example.org/Tourism/Eggum
+Hotel Geonames link: https://sws.geonames.org/6508651/
+Hotel name: Sortland Hotell As
+Attraksjon: http://example.org/Tourism/Flydalsjuvet
+Hotel Geonames link: https://sws.geonames.org/6470338/
+Hotel name: Union
+Attraksjon: http://example.org/Tourism/Flydalsjuvet
+Hotel Geonames link: https://sws.geonames.org/6470179/
+Hotel name: Geiranger
+Attraksjon: http://example.org/Tourism/Flydalsjuvet
+Hotel Geonames link: https://sws.geonames.org/10111333/
+Hotel name: Grande Hytteutleige And Camping
+Attraksjon: http://example.org/Tourism/Flydalsjuvet
+Hotel Geonames link: https://sws.geonames.org/10292017/
+Hotel name: Utsikten
+Attraksjon: http://example.org/Tourism/Gjende
+Hotel Geonames link: https://sws.geonames.org/3161579/
+Hotel name: Bessheim
+Attraksjon: http://example.org/Tourism/Hardangervidda
+Hotel Geonames link: https://sws.geonames.org/3161405/
+Hotel name: Bjoreidalshytta
+Attraksjon: http://example.org/Tourism/Hardangervidda
+Hotel Geonames link: https://sws.geonames.org/3151015/
+Hotel name: Instestølen
+Attraksjon: http://example.org/Tourism/Jektvik
+Hotel Geonames link: https://sws.geonames.org/10111249/
+Hotel name: Sjvik Overnatting
+Attraksjon: http://example.org/Tourism/JølBru
+Hotel Geonames link: https://sws.geonames.org/3131882/
+Hotel name: Videsæter
+Attraksjon: http://example.org/Tourism/Kleivodden
+Hotel Geonames link: https://sws.geonames.org/10111326/
+Hotel name: Beach Houses Bleik Self Catering
+Attraksjon: http://example.org/Tourism/Liasanden
+Hotel Geonames link: https://sws.geonames.org/3158298/
+Hotel name: Elvesæter
+Attraksjon: http://example.org/Tourism/LingeFerjekai
+Hotel Geonames link: https://sws.geonames.org/10111270/
+Hotel name: Fjellro Turisthotell
+Attraksjon: http://example.org/Tourism/Måbødalen
+Hotel Geonames link: https://sws.geonames.org/3156590/
+Hotel name: Fossli
+Attraksjon: http://example.org/Tourism/Måbødalen
+Hotel Geonames link: https://sws.geonames.org/10111359/
+Hotel name: Eidfjord Gjestgiveri
+Attraksjon: http://example.org/Tourism/Rjupa
+Hotel Geonames link: https://sws.geonames.org/3159587/
+Hotel name: Bygdisheim
+Attraksjon: http://example.org/Tourism/Rjupa
+Hotel Geonames link: https://sws.geonames.org/3159589/
+Hotel name: Bygdin
+Attraksjon: http://example.org/Tourism/Rjupa
+Hotel Geonames link: https://sws.geonames.org/9254787/
+Hotel name: Storefjell Resort Hotel
+Attraksjon: http://example.org/Tourism/Rjupa
+Hotel Geonames link: https://sws.geonames.org/10128439/
+Hotel name: Bergo
+Attraksjon: http://example.org/Tourism/Stegastein
+Hotel Geonames link: https://sws.geonames.org/9963235/
+Hotel name: Flamsbrygga
+Attraksjon: http://example.org/Tourism/Stegastein
+Hotel Geonames link: https://sws.geonames.org/10281730/
+Hotel name: Thon Hotel Bjorneparken
+Attraksjon: http://example.org/Tourism/Steinplassen
+Hotel Geonames link: https://sws.geonames.org/3159587/
+Hotel name: Bygdisheim
+Attraksjon: http://example.org/Tourism/Steinplassen
+Hotel Geonames link: https://sws.geonames.org/3159589/
+Hotel name: Bygdin
+Attraksjon: http://example.org/Tourism/Steinplassen
+Hotel Geonames link: https://sws.geonames.org/9254787/
+Hotel name: Storefjell Resort Hotel
+Attraksjon: http://example.org/Tourism/Steinsdalsfossen
+Hotel Geonames link: https://sws.geonames.org/9254718/
+Hotel name: Hardangerfjord
+Attraksjon: http://example.org/Tourism/Steinsdalsfossen
+Hotel Geonames link: https://sws.geonames.org/10117368/
+Hotel name: Thon Hotel Sandven
+Attraksjon: http://example.org/Tourism/Svandalsfossen
+Hotel Geonames link: https://sws.geonames.org/6532279/
+Hotel name: Klover Hotel
+Attraksjon: http://example.org/Tourism/Svandalsfossen
+Hotel Geonames link: https://sws.geonames.org/10111311/
+Hotel name: Klver Hotel
+Attraksjon: http://example.org/Tourism/Svandalsfossen
+Hotel Geonames link: https://sws.geonames.org/10236642/
+Hotel name: Best Western Sauda Fjordhotell
+Attraksjon: http://example.org/Tourism/Vargebakkane
+Hotel Geonames link: https://sws.geonames.org/3161579/
+Hotel name: Bessheim
+Attraksjon: http://example.org/Tourism/Vegaskjelet
+Hotel Geonames link: https://sws.geonames.org/3158298/
+Hotel name: Elvesæter
+Attraksjon: http://example.org/Tourism/Videfossen
+Hotel Geonames link: https://sws.geonames.org/3131882/
+Hotel name: Videsæter
+Attraksjon: http://example.org/Tourism/Vøringsfossen
+Hotel Geonames link: https://sws.geonames.org/3156590/
+Hotel name: Fossli
+Attraksjon: http://example.org/Tourism/Ørnesvingen
+Hotel Geonames link: https://sws.geonames.org/6470179/
+Hotel name: Geiranger
+Attraksjon: http://example.org/Tourism/Ørnesvingen
+Hotel Geonames link: https://sws.geonames.org/6470338/
+Hotel name: Union
+Attraksjon: http://example.org/Tourism/Ørnesvingen
+Hotel Geonames link: https://sws.geonames.org/10111333/
+Hotel name: Grande Hytteutleige And Camping
+Attraksjon: http://example.org/Tourism/Ørnesvingen
+Hotel Geonames link: https://sws.geonames.org/10292017/
+Hotel name: Utsikten
+Attraksjon: http://example.org/Tourism/Øvstefoss
+Hotel Geonames link: https://sws.geonames.org/3131882/
+Hotel name: Videsæter

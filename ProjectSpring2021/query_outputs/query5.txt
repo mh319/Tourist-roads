@@ -1,0 +1,658 @@
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Vikten
+Toponym name: Vikten
+Attraksjon latitude: 68.138824
+Toponym latitude: 68.15
+Attraksjon longitude: 13.312196
+Toponym longitude: 13.33333
+Turistveg: http://example.org/Tourism/Atlanterhavsvegen
+Attraksjon: http://example.org/Tourism/Hågå
+Toponym name: Vevang
+Attraksjon latitude: 63.007412
+Toponym latitude: 63.0028
+Attraksjon longitude: 7.2980075
+Toponym longitude: 7.2884
+Turistveg: http://example.org/Tourism/Atlanterhavsvegen
+Attraksjon: http://example.org/Tourism/Myrbærholmbrua
+Toponym name: Vevang
+Attraksjon latitude: 63.016834
+Toponym latitude: 63.0028
+Attraksjon longitude: 7.3470516
+Toponym longitude: 7.2884
+Turistveg: http://example.org/Tourism/Atlanterhavsvegen
+Attraksjon: http://example.org/Tourism/Storseisundbrua
+Toponym name: Vevang
+Attraksjon latitude: 63.01677
+Toponym latitude: 63.0028
+Attraksjon longitude: 7.354519
+Toponym longitude: 7.2884
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Austnesfjorden
+Toponym name: Vestpollen
+Attraksjon latitude: 68.314964
+Toponym latitude: 68.32877
+Attraksjon longitude: 14.7141905
+Toponym longitude: 14.69709
+Turistveg: http://example.org/Tourism/Ryfylke
+Attraksjon: http://example.org/Tourism/Lovra
+Toponym name: Vela
+Attraksjon latitude: 59.419827
+Toponym latitude: 59.45
+Attraksjon longitude: 6.2197537
+Toponym longitude: 6.25
+Turistveg: http://example.org/Tourism/Hardanger
+Attraksjon: http://example.org/Tourism/Låtefoss
+Toponym name: Tveit
+Attraksjon latitude: 59.94836
+Toponym latitude: 59.95
+Attraksjon longitude: 6.583656
+Toponym longitude: 6.61667
+Turistveg: http://example.org/Tourism/Ryfylke
+Attraksjon: http://example.org/Tourism/Tau-SkjultPunktForGooglehjelp
+Toponym name: Tau
+Attraksjon latitude: 59.06856
+Toponym latitude: 59.06481
+Attraksjon longitude: 5.9215584
+Toponym longitude: 5.9225
+Turistveg: http://example.org/Tourism/Geiranger-Trollstigen
+Attraksjon: http://example.org/Tourism/Gudbrandsjuvet
+Toponym name: Tafjord
+Attraksjon latitude: 62.330864
+Toponym latitude: 62.23242
+Attraksjon longitude: 7.4710517
+Toponym longitude: 7.41769
+Turistveg: http://example.org/Tourism/Geiranger-Trollstigen
+Attraksjon: http://example.org/Tourism/Juvet
+Toponym name: Tafjord
+Attraksjon latitude: 62.33078
+Toponym latitude: 62.23242
+Attraksjon longitude: 7.473596
+Toponym longitude: 7.41769
+Turistveg: http://example.org/Tourism/Hardanger
+Attraksjon: http://example.org/Tourism/Hereiane
+Toponym name: Svåsand
+Attraksjon latitude: 60.329014
+Toponym latitude: 60.31473
+Attraksjon longitude: 6.338553
+Toponym longitude: 6.32111
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Attraksjon: http://example.org/Tourism/Storvika
+Toponym name: Storvik
+Attraksjon latitude: 66.95963
+Toponym latitude: 66.96286
+Attraksjon longitude: 13.804214
+Toponym longitude: 13.80818
+Turistveg: http://example.org/Tourism/Hardanger
+Attraksjon: http://example.org/Tourism/Skjervsfossen
+Toponym name: Spildo
+Attraksjon latitude: 60.5882
+Toponym latitude: 60.58333
+Attraksjon longitude: 6.6339087
+Toponym longitude: 6.68333
+Turistveg: http://example.org/Tourism/Rondane
+Attraksjon: http://example.org/Tourism/SolliaKirke
+Toponym name: Sollia
+Attraksjon latitude: 61.779804
+Toponym latitude: 61.78081
+Attraksjon longitude: 10.396415
+Toponym longitude: 10.39994
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Torvdalshalsen
+Toponym name: Sletteng
+Attraksjon latitude: 68.26219
+Toponym latitude: 68.26667
+Attraksjon longitude: 13.826489
+Toponym longitude: 13.85
+Turistveg: http://example.org/Tourism/Gaularfjellet
+Attraksjon: http://example.org/Tourism/Eikelandsfossen
+Toponym name: Skudalen
+Attraksjon latitude: 61.33648
+Toponym latitude: 61.33333
+Attraksjon longitude: 5.8816733
+Toponym longitude: 5.86667
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Reinehalsen
+Toponym name: Reine
+Attraksjon latitude: 67.928185
+Toponym latitude: 67.93249
+Attraksjon longitude: 13.083401
+Toponym longitude: 13.08955
+Turistveg: http://example.org/Tourism/Jæren
+Attraksjon: http://example.org/Tourism/OrreFriluftshus
+Toponym name: Orre
+Attraksjon latitude: 58.741535
+Toponym latitude: 58.73333
+Attraksjon longitude: 5.522718
+Toponym longitude: 5.53333
+Turistveg: http://example.org/Tourism/Jæren
+Attraksjon: http://example.org/Tourism/Orrestranda
+Toponym name: Orre
+Attraksjon latitude: 58.741535
+Toponym latitude: 58.73333
+Attraksjon longitude: 5.522718
+Toponym longitude: 5.53333
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Nusfjord
+Toponym name: Nusfjord
+Attraksjon latitude: 68.03784
+Toponym latitude: 68.0353
+Attraksjon longitude: 13.348419
+Toponym longitude: 13.34776
+Turistveg: http://example.org/Tourism/Andøya
+Attraksjon: http://example.org/Tourism/Bukkekjerka
+Toponym name: Nøss
+Attraksjon latitude: 69.104164
+Toponym latitude: 69.07944
+Attraksjon longitude: 15.573207
+Toponym longitude: 15.56569
+Turistveg: http://example.org/Tourism/Hardanger
+Attraksjon: http://example.org/Tourism/Steinsdalsfossen
+Toponym name: Mo
+Attraksjon latitude: 60.36995
+Toponym latitude: 60.36667
+Attraksjon longitude: 6.109019
+Toponym longitude: 6.13333
+Turistveg: http://example.org/Tourism/Hardangervidda
+Attraksjon: http://example.org/Tourism/Hardangervidda
+Toponym name: Maurset
+Attraksjon latitude: 60.36825
+Toponym latitude: 60.41667
+Attraksjon longitude: 7.5033135
+Toponym longitude: 7.33333
+Turistveg: http://example.org/Tourism/Geiranger-Trollstigen
+Attraksjon: http://example.org/Tourism/Flydalsjuvet
+Toponym name: Maråk
+Attraksjon latitude: 62.08983
+Toponym latitude: 62.1
+Attraksjon longitude: 7.223294
+Toponym longitude: 7.21667
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Gårdsvatnet
+Toponym name: Lyngedal
+Attraksjon latitude: 68.272
+Toponym latitude: 68.26667
+Attraksjon longitude: 14.056271
+Toponym longitude: 14.05
+Turistveg: http://example.org/Tourism/Aurlandsfjellet
+Attraksjon: http://example.org/Tourism/Flotane
+Toponym name: Kvignadal
+Attraksjon latitude: 61.00775
+Toponym latitude: 61.06667
+Attraksjon longitude: 7.331573
+Toponym longitude: 7.35
+Turistveg: http://example.org/Tourism/Aurlandsfjellet
+Attraksjon: http://example.org/Tourism/Vedahaugane
+Toponym name: Kvignadal
+Attraksjon latitude: 61.03177
+Toponym latitude: 61.06667
+Attraksjon longitude: 7.3277397
+Toponym longitude: 7.35
+Turistveg: http://example.org/Tourism/Jæren
+Attraksjon: http://example.org/Tourism/KvassheimFyr
+Toponym name: Kvassheim
+Attraksjon latitude: 58.546814
+Toponym latitude: 58.53333
+Attraksjon longitude: 5.694608
+Toponym longitude: 5.68333
+Turistveg: http://example.org/Tourism/Hardangervidda
+Attraksjon: http://example.org/Tourism/Måbødalen
+Toponym name: Katlo
+Attraksjon latitude: 60.418022
+Toponym latitude: 60.41667
+Attraksjon longitude: 7.1992145
+Toponym longitude: 7.13333
+Turistveg: http://example.org/Tourism/Ryfylke
+Attraksjon: http://example.org/Tourism/Lysefjorden-Preikestolen
+Toponym name: Jøssang
+Attraksjon latitude: 58.997227
+Toponym latitude: 59
+Attraksjon longitude: 6.0817037
+Toponym longitude: 6.06667
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Attraksjon: http://example.org/Tourism/Jektvik
+Toponym name: Jektvika
+Attraksjon latitude: 66.62419
+Toponym latitude: 66.62588
+Attraksjon longitude: 13.289297
+Toponym longitude: 13.2921
+Turistveg: http://example.org/Tourism/Senja
+Attraksjon: http://example.org/Tourism/Bergsbotn
+Toponym name: Innergard
+Attraksjon latitude: 69.42289
+Toponym latitude: 69.45
+Attraksjon longitude: 17.50426
+Toponym longitude: 17.5
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Attraksjon: http://example.org/Tourism/Braset
+Toponym name: Holand
+Attraksjon latitude: 66.715576
+Toponym latitude: 66.71667
+Attraksjon longitude: 13.671063
+Toponym longitude: 13.68333
+Turistveg: http://example.org/Tourism/GamleStrynefjellsvegen
+Attraksjon: http://example.org/Tourism/Hjelle
+Toponym name: Hjelle
+Attraksjon latitude: 61.914764
+Toponym latitude: 61.91609
+Attraksjon longitude: 7.1135545
+Toponym longitude: 7.11622
+Turistveg: http://example.org/Tourism/GamleStrynefjellsvegen
+Attraksjon: http://example.org/Tourism/JølBru
+Toponym name: Hjelle
+Attraksjon latitude: 61.93566
+Toponym latitude: 61.91609
+Attraksjon longitude: 7.2447176
+Toponym longitude: 7.11622
+Turistveg: http://example.org/Tourism/GamleStrynefjellsvegen
+Attraksjon: http://example.org/Tourism/Videfossen
+Toponym name: Hjelle
+Attraksjon latitude: 61.940304
+Toponym latitude: 61.91609
+Attraksjon longitude: 7.27278
+Toponym longitude: 7.11622
+Turistveg: http://example.org/Tourism/GamleStrynefjellsvegen
+Attraksjon: http://example.org/Tourism/Øvstefoss
+Toponym name: Hjelle
+Attraksjon latitude: 61.937016
+Toponym latitude: 61.91609
+Attraksjon longitude: 7.2601542
+Toponym longitude: 7.11622
+Turistveg: http://example.org/Tourism/Hardanger
+Attraksjon: http://example.org/Tourism/Hesthamar
+Toponym name: Hesthamar
+Attraksjon latitude: 60.43515
+Toponym latitude: 60.43333
+Attraksjon longitude: 6.562753
+Toponym longitude: 6.56667
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Akkarvikodden
+Toponym name: Hamnøya
+Attraksjon latitude: 67.962654
+Toponym latitude: 67.94584
+Attraksjon longitude: 13.154369
+Toponym longitude: 13.13304
+Turistveg: http://example.org/Tourism/Gaularfjellet
+Attraksjon: http://example.org/Tourism/HestadKapell
+Toponym name: Hæstad
+Attraksjon latitude: 61.32855
+Toponym latitude: 61.33333
+Attraksjon longitude: 5.9367046
+Toponym longitude: 5.93333
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Grunnfør
+Toponym name: Grunnfør
+Attraksjon latitude: 68.42124
+Toponym latitude: 68.41532
+Attraksjon longitude: 14.567211
+Toponym longitude: 14.55145
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Attraksjon: http://example.org/Tourism/Godøystraumen
+Toponym name: Godøya
+Attraksjon latitude: 67.23986
+Toponym latitude: 67.23767
+Attraksjon longitude: 14.711753
+Toponym longitude: 14.70533
+Turistveg: http://example.org/Tourism/Atlanterhavsvegen
+Attraksjon: http://example.org/Tourism/Askevågen
+Toponym name: Gjerdet
+Attraksjon latitude: 62.96672
+Toponym latitude: 62.95
+Attraksjon longitude: 7.0372553
+Toponym longitude: 7.01667
+Turistveg: http://example.org/Tourism/Hardangervidda
+Attraksjon: http://example.org/Tourism/Vøringsfossen
+Toponym name: Garden
+Attraksjon latitude: 60.426193
+Toponym latitude: 60.41667
+Attraksjon longitude: 7.2569046
+Toponym longitude: 7.28333
+Turistveg: http://example.org/Tourism/Hardanger
+Attraksjon: http://example.org/Tourism/Steinstøberget
+Toponym name: Fyske
+Attraksjon latitude: 60.39632
+Toponym latitude: 60.4
+Attraksjon longitude: 6.3120065
+Toponym longitude: 6.28333
+Turistveg: http://example.org/Tourism/Helgelandskysten
+Attraksjon: http://example.org/Tourism/Hellåga
+Toponym name: Flostrand
+Attraksjon latitude: 66.31407
+Toponym latitude: 66.33628
+Attraksjon longitude: 13.284131
+Toponym longitude: 13.36858
+Turistveg: http://example.org/Tourism/Atlanterhavsvegen
+Attraksjon: http://example.org/Tourism/Kjeksa
+Toponym name: Ersholmen
+Attraksjon latitude: 62.917454
+Toponym latitude: 62.92146
+Attraksjon longitude: 6.936457
+Toponym longitude: 6.9458
+Turistveg: http://example.org/Tourism/Senja
+Attraksjon: http://example.org/Tourism/Ersfjordstranda
+Toponym name: Ersfjord
+Attraksjon latitude: 69.47903
+Toponym latitude: 69.48413
+Attraksjon longitude: 17.394207
+Toponym longitude: 17.40596
+Turistveg: http://example.org/Tourism/Senja
+Attraksjon: http://example.org/Tourism/Tungeneset
+Toponym name: Ersfjord
+Attraksjon latitude: 69.48695
+Toponym latitude: 69.48413
+Attraksjon longitude: 17.333256
+Toponym longitude: 17.40596
+Turistveg: http://example.org/Tourism/Gaularfjellet
+Attraksjon: http://example.org/Tourism/Torsnesstølen-Malawi
+Toponym name: Eiki
+Attraksjon latitude: 61.33737
+Toponym latitude: 61.3
+Attraksjon longitude: 6.4308567
+Toponym longitude: 6.55
+Turistveg: http://example.org/Tourism/Gaularfjellet
+Attraksjon: http://example.org/Tourism/Utsikten
+Toponym name: Eiki
+Attraksjon latitude: 61.351456
+Toponym latitude: 61.3
+Attraksjon longitude: 6.518174
+Toponym longitude: 6.55
+Turistveg: http://example.org/Tourism/Geiranger-Trollstigen
+Attraksjon: http://example.org/Tourism/LingeFerjekai
+Toponym name: Eidsdal
+Attraksjon latitude: 62.28442
+Toponym latitude: 62.26258
+Attraksjon longitude: 7.190646
+Toponym longitude: 7.17184
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Eggum
+Toponym name: Eggum
+Attraksjon latitude: 68.30913
+Toponym latitude: 68.30807
+Attraksjon longitude: 13.667935
+Toponym longitude: 13.68454
+Turistveg: http://example.org/Tourism/Ryfylke
+Attraksjon: http://example.org/Tourism/Allmannajuvet
+Toponym name: Byrkjeland
+Attraksjon latitude: 59.65261
+Toponym latitude: 59.65
+Attraksjon longitude: 6.4647536
+Toponym longitude: 6.4
+Turistveg: http://example.org/Tourism/Rondane
+Attraksjon: http://example.org/Tourism/FolldalGruver
+Toponym name: Bustadtrøi
+Attraksjon latitude: 62.141342
+Toponym latitude: 62.13333
+Attraksjon longitude: 9.990943
+Toponym longitude: 10
+Turistveg: http://example.org/Tourism/Jæren
+Attraksjon: http://example.org/Tourism/VarhaugGamleKyrkjegard
+Toponym name: Brattland
+Attraksjon latitude: 58.61367
+Toponym latitude: 58.61667
+Attraksjon longitude: 5.6246233
+Toponym longitude: 5.61667
+Turistveg: http://example.org/Tourism/Sognefjellet
+Attraksjon: http://example.org/Tourism/Sognefjellshytta
+Toponym name: Bøverkinnhalsen
+Attraksjon latitude: 61.565178
+Toponym latitude: 61.65
+Attraksjon longitude: 7.9980316
+Toponym longitude: 8.15
+Turistveg: http://example.org/Tourism/Sognefjellet
+Attraksjon: http://example.org/Tourism/Vegaskjelet
+Toponym name: Bøverkinnhalsen
+Attraksjon latitude: 61.665405
+Toponym latitude: 61.65
+Attraksjon longitude: 8.184663
+Toponym longitude: 8.15
+Turistveg: http://example.org/Tourism/Geiranger-Trollstigen
+Attraksjon: http://example.org/Tourism/Trollstigen
+Toponym name: Bø
+Attraksjon latitude: 62.453392
+Toponym latitude: 62.5
+Attraksjon longitude: 7.6631827
+Toponym longitude: 7.56667
+Turistveg: http://example.org/Tourism/Andøya
+Attraksjon: http://example.org/Tourism/Bleik
+Toponym name: Bleik
+Attraksjon latitude: 69.27525
+Toponym latitude: 69.27262
+Attraksjon longitude: 15.968765
+Toponym longitude: 15.95544
+Turistveg: http://example.org/Tourism/Andøya
+Attraksjon: http://example.org/Tourism/Kleivodden
+Toponym name: Bleik
+Attraksjon latitude: 69.29753
+Toponym latitude: 69.27262
+Attraksjon longitude: 15.993514
+Toponym longitude: 15.95544
+Turistveg: http://example.org/Tourism/Sognefjellet
+Attraksjon: http://example.org/Tourism/Mefjellet
+Toponym name: Bjørk
+Attraksjon latitude: 61.55901
+Toponym latitude: 61.53333
+Attraksjon longitude: 7.955676
+Toponym longitude: 7.71667
+Turistveg: http://example.org/Tourism/Sognefjellet
+Attraksjon: http://example.org/Tourism/NedreOscarshaug
+Toponym name: Bjørk
+Attraksjon latitude: 61.508194
+Toponym latitude: 61.53333
+Attraksjon longitude: 7.811497
+Toponym longitude: 7.71667
+Turistveg: http://example.org/Tourism/Valdresflye
+Attraksjon: http://example.org/Tourism/Rjupa
+Toponym name: Beitostølen
+Attraksjon latitude: 61.343136
+Toponym latitude: 61.24866
+Attraksjon longitude: 8.812729
+Toponym longitude: 8.90621
+Turistveg: http://example.org/Tourism/Valdresflye
+Attraksjon: http://example.org/Tourism/Steinplassen
+Toponym name: Beitostølen
+Attraksjon latitude: 61.402626
+Toponym latitude: 61.24866
+Attraksjon longitude: 8.808229
+Toponym longitude: 8.90621
+Turistveg: http://example.org/Tourism/Valdresflye
+Attraksjon: http://example.org/Tourism/Vargebakkane
+Toponym name: Beitostølen
+Attraksjon latitude: 61.46444
+Toponym latitude: 61.24866
+Attraksjon longitude: 8.808613
+Toponym longitude: 8.90621
+Turistveg: http://example.org/Tourism/Rondane
+Attraksjon: http://example.org/Tourism/AtnbrufossenVannbruksmuseum
+Toponym name: Atnbrua
+Attraksjon latitude: 61.851177
+Toponym latitude: 61.85113
+Attraksjon longitude: 10.23389
+Toponym longitude: 10.23396
+Turistveg: http://example.org/Tourism/Rondane
+Attraksjon: http://example.org/Tourism/Sohlbergplassen
+Toponym name: Atnbrua
+Attraksjon latitude: 61.88053
+Toponym latitude: 61.85113
+Attraksjon longitude: 10.185345
+Toponym longitude: 10.23396
+Turistveg: http://example.org/Tourism/Rondane
+Attraksjon: http://example.org/Tourism/Strømbu
+Toponym name: Atnbrua
+Attraksjon latitude: 61.921528
+Toponym latitude: 61.85113
+Attraksjon longitude: 10.054923
+Toponym longitude: 10.23396
+Turistveg: http://example.org/Tourism/Ryfylke
+Attraksjon: http://example.org/Tourism/HøseBru
+Toponym name: Åsen
+Attraksjon latitude: 59.481327
+Toponym latitude: 59.48333
+Attraksjon longitude: 6.2597446
+Toponym longitude: 6.25
+Turistveg: http://example.org/Tourism/Ryfylke
+Attraksjon: http://example.org/Tourism/Ropeid
+Toponym name: Åsen
+Attraksjon latitude: 59.485386
+Toponym latitude: 59.48333
+Attraksjon longitude: 6.2120967
+Toponym longitude: 6.25
+Turistveg: http://example.org/Tourism/Geiranger-Trollstigen
+Attraksjon: http://example.org/Tourism/Ørnesvingen
+Toponym name: Geiranger
+Attraksjon latitude: 62.126263
+Toponym latitude: 62.10186
+Attraksjon longitude: 7.1672173
+Toponym longitude: 7.20719
+Turistveg: http://example.org/Tourism/Varanger
+Attraksjon: http://example.org/Tourism/Steilneset
+Toponym name: Vardø
+Attraksjon latitude: 70.37025
+Toponym latitude: 70.37048
+Attraksjon longitude: 31.104866
+Toponym longitude: 31.11066
+Turistveg: http://example.org/Tourism/Havøysund
+Attraksjon: http://example.org/Tourism/Snefjord
+Toponym name: Snøfjord
+Attraksjon latitude: 70.787605
+Toponym latitude: 70.78781
+Attraksjon longitude: 24.606955
+Toponym longitude: 24.60722
+Turistveg: http://example.org/Tourism/Varanger
+Attraksjon: http://example.org/Tourism/NessebyKirke
+Toponym name: Nesseby
+Attraksjon latitude: 70.14559
+Toponym latitude: 70.15197
+Attraksjon longitude: 28.863153
+Toponym longitude: 28.8648
+Turistveg: http://example.org/Tourism/Havøysund
+Attraksjon: http://example.org/Tourism/Lillefjord
+Toponym name: Litlefjord
+Attraksjon latitude: 70.69445
+Toponym latitude: 70.6979
+Attraksjon longitude: 24.674109
+Toponym longitude: 24.65338
+Turistveg: http://example.org/Tourism/Havøysund
+Attraksjon: http://example.org/Tourism/Havøysund
+Toponym name: Havøysund
+Attraksjon latitude: 70.996124
+Toponym latitude: 70.99634
+Attraksjon longitude: 24.660492
+Toponym longitude: 24.66217
+Turistveg: http://example.org/Tourism/Havøysund
+Attraksjon: http://example.org/Tourism/Selvika
+Toponym name: Havøysund
+Attraksjon latitude: 70.91438
+Toponym latitude: 70.99634
+Attraksjon longitude: 24.60958
+Toponym longitude: 24.66217
+Turistveg: http://example.org/Tourism/Varanger
+Attraksjon: http://example.org/Tourism/Hamningberg
+Toponym name: Hamningberg
+Attraksjon latitude: 70.54112
+Toponym latitude: 70.54114
+Attraksjon longitude: 30.609919
+Toponym longitude: 30.60997
+Turistveg: http://example.org/Tourism/Varanger
+Attraksjon: http://example.org/Tourism/BirdingVaranger
+Toponym name: Sollnes
+Attraksjon latitude: 70.08001
+Toponym latitude: 70.08125
+Attraksjon longitude: 30.07885
+Toponym longitude: 30.09039
+Turistveg: http://example.org/Tourism/Valdresflye
+Attraksjon: http://example.org/Tourism/Gjende
+Toponym name: Visdalen
+Attraksjon latitude: 61.495186
+Toponym latitude: 61.6241
+Attraksjon longitude: 8.809962
+Toponym longitude: 8.40454
+Turistveg: http://example.org/Tourism/Aurlandsfjellet
+Attraksjon: http://example.org/Tourism/Stegastein
+Toponym name: Aurland
+Attraksjon latitude: 60.908363
+Toponym latitude: 60.90321
+Attraksjon longitude: 7.212794
+Toponym longitude: 7.20167
+Turistveg: http://example.org/Tourism/Gaularfjellet
+Attraksjon: http://example.org/Tourism/Fossestien
+Toponym name: Viksdalen
+Attraksjon latitude: 61.328545
+Toponym latitude: 61.32625
+Attraksjon longitude: 6.2723618
+Toponym longitude: 6.2692
+Turistveg: http://example.org/Tourism/Gaularfjellet
+Attraksjon: http://example.org/Tourism/Likholefossen
+Toponym name: Viksdalen
+Attraksjon latitude: 61.328545
+Toponym latitude: 61.32625
+Attraksjon longitude: 6.2723618
+Toponym longitude: 6.2692
+Turistveg: http://example.org/Tourism/Gaularfjellet
+Attraksjon: http://example.org/Tourism/Vallestadfossen
+Toponym name: Viksdalen
+Attraksjon latitude: 61.359985
+Toponym latitude: 61.32625
+Attraksjon longitude: 6.2176194
+Toponym longitude: 6.2692
+Turistveg: http://example.org/Tourism/Ryfylke
+Attraksjon: http://example.org/Tourism/Svandalsfossen
+Toponym name: Sandviksåsen
+Attraksjon latitude: 59.625374
+Toponym latitude: 59.63525
+Attraksjon longitude: 6.292103
+Toponym longitude: 6.2973
+Turistveg: http://example.org/Tourism/Senja
+Attraksjon: http://example.org/Tourism/Husøy
+Toponym name: Husøy
+Attraksjon latitude: 69.532936
+Toponym latitude: 69.54411
+Attraksjon longitude: 17.686176
+Toponym longitude: 17.66368
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Gimsøystraumen
+Toponym name: Klepstad
+Attraksjon latitude: 68.2608
+Toponym latitude: 68.25538
+Attraksjon longitude: 14.269945
+Toponym longitude: 14.27294
+Turistveg: http://example.org/Tourism/Varanger
+Attraksjon: http://example.org/Tourism/Gornitak
+Toponym name: Gorgŋehat
+Attraksjon latitude: 70.17625
+Toponym latitude: 70.17524
+Attraksjon longitude: 28.714022
+Toponym longitude: 28.72242
+Turistveg: http://example.org/Tourism/GamleStrynefjellsvegen
+Attraksjon: http://example.org/Tourism/GamleStrynefjellsvegen
+Toponym name: Grotli
+Attraksjon latitude: 61.97848
+Toponym latitude: 62.01351
+Attraksjon longitude: 7.462533
+Toponym longitude: 7.63037
+Turistveg: http://example.org/Tourism/Atlanterhavsvegen
+Attraksjon: http://example.org/Tourism/Eldhusøya
+Toponym name: Utheim
+Attraksjon latitude: 63.018066
+Toponym latitude: 63.0112
+Attraksjon longitude: 7.3635316
+Toponym longitude: 7.43773
+Turistveg: http://example.org/Tourism/Atlanterhavsvegen
+Attraksjon: http://example.org/Tourism/Geitøya
+Toponym name: Utheim
+Attraksjon latitude: 63.0215
+Toponym latitude: 63.0112
+Attraksjon longitude: 7.3810773
+Toponym longitude: 7.43773
+Turistveg: http://example.org/Tourism/Lofoten
+Attraksjon: http://example.org/Tourism/Rambergstranda
+Toponym name: Øverleitet
+Attraksjon latitude: 68.0984
+Toponym latitude: 68.09959
+Attraksjon longitude: 13.24626
+Toponym longitude: 13.24645
+Turistveg: http://example.org/Tourism/Sognefjellet
+Attraksjon: http://example.org/Tourism/Liasanden
+Toponym name: Neto
+Attraksjon latitude: 61.679863
+Toponym latitude: 61.71596
+Attraksjon longitude: 8.225366
+Toponym longitude: 8.21077
