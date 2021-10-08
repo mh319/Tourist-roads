@@ -1,0 +1,1808 @@
+@prefix ex: <http://example.org/Tourism/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:turistveg a rdfs:Class .
+
+ex:turistvegAttraksjon a rdfs:Class .
+
+ex:turistvegEnd a rdfs:Class .
+
+ex:turistvegStart a rdfs:Class .
+
+ex:Length_km rdfs:domain ex:turistveg .
+
+ex:totalFerries rdfs:domain ex:turistveg .
+
+ex:Akkarvikodden a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Moskenes" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3154005/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "67.96265124"^^xsd:float ;
+    wgs84_pos:long "13.15436927"^^xsd:float .
+
+ex:Allmannajuvet a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Sauda" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3159559/> ;
+    ex:locatedOn ex:Ryfylke ;
+    wgs84_pos:lat "59.65261189"^^xsd:float ;
+    wgs84_pos:long "6.46475341"^^xsd:float .
+
+ex:Andøya-Attraksjoner rdf:first ex:Bleik ;
+    rdf:rest ( ex:Bukkekjerka ex:Kleivodden ) .
+
+ex:AndøyaEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Andøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3161219/> ;
+    wgs84_pos:lat "68.989779"^^xsd:float ;
+    wgs84_pos:long "15.646872"^^xsd:float .
+
+ex:AndøyaStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Andøy" ;
+            ex:postalCode "8480" ] ;
+    ex:geonameID <https://sws.geonames.org/3163146/> ;
+    wgs84_pos:lat "69.324167"^^xsd:float ;
+    wgs84_pos:long "16.1325"^^xsd:float .
+
+ex:Askevågen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Hustadvika" ;
+            ex:postalCode "6433" ] ;
+    ex:geonameID <https://sws.geonames.org/3155716/> ;
+    ex:locatedOn ex:Atlanterhavsvegen ;
+    wgs84_pos:lat "62.96672151"^^xsd:float ;
+    wgs84_pos:long "7.03725536"^^xsd:float .
+
+ex:Atlanterhavsvegen-Attraksjoner rdf:first ex:Storseisundbrua ;
+    rdf:rest ( ex:Myrbærholmbrua ex:Kjeksa ex:Geitøya ex:Eldhusøya ex:Askevågen ex:Hågå ) .
+
+ex:AtlanterhavsvegenEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Hustadvika" ;
+            ex:postalCode "6430" ] ;
+    ex:geonameID <https://sws.geonames.org/3159801/> ;
+    wgs84_pos:lat "62.912014"^^xsd:float ;
+    wgs84_pos:long "6.925249"^^xsd:float .
+
+ex:AtlanterhavsvegenStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "Smenes" ;
+            ex:municipality "Averøy" ;
+            ex:postalCode "6532" ] ;
+    ex:geonameID <https://sws.geonames.org/9536999/> ;
+    wgs84_pos:lat "63.011625"^^xsd:float ;
+    wgs84_pos:long "7.425009"^^xsd:float .
+
+ex:AtnbrufossenVannbruksmuseum a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Stor-Elvdal" ;
+            ex:postalCode "2477" ] ;
+    ex:geonameID <https://sws.geonames.org/3162514/> ;
+    ex:locatedOn ex:Rondane ;
+    wgs84_pos:lat "61.85117623"^^xsd:float ;
+    wgs84_pos:long "10.23388988"^^xsd:float .
+
+ex:Aurlandsfjellet-Attraksjoner rdf:first ex:Flotane ;
+    rdf:rest ( ex:Stegastein ex:Vedahaugane ) .
+
+ex:AurlandsfjelletEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Aurland" ;
+            ex:postalCode "5745" ] ;
+    ex:geonameID <https://sws.geonames.org/7626362/> ;
+    wgs84_pos:lat "60.910982"^^xsd:float ;
+    wgs84_pos:long "7.191303"^^xsd:float .
+
+ex:AurlandsfjelletStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Lærdal" ;
+            ex:postalCode "6886" ] ;
+    ex:geonameID <https://sws.geonames.org/3148569/> ;
+    wgs84_pos:lat "61.101395"^^xsd:float ;
+    wgs84_pos:long "7.460039"^^xsd:float .
+
+ex:Austnesfjorden a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "Vaterfjord" ;
+            ex:municipality "Vågan" ;
+            ex:postalCode "8316" ] ;
+    ex:geonameID <https://sws.geonames.org/3131994/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.31496695"^^xsd:float ;
+    wgs84_pos:long "14.71419064"^^xsd:float .
+
+ex:Bergsbotn a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Senja" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3151052/> ;
+    ex:locatedOn ex:Senja ;
+    wgs84_pos:lat "69.42289027"^^xsd:float ;
+    wgs84_pos:long "17.50425859"^^xsd:float .
+
+ex:BirdingVaranger a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "Ekkerøy" ;
+            ex:municipality "Vadsø" ;
+            ex:postalCode "9804" ] ;
+    ex:geonameID <https://sws.geonames.org/795678/> ;
+    ex:locatedOn ex:Varanger ;
+    wgs84_pos:lat "70.08000849"^^xsd:float ;
+    wgs84_pos:long "30.07885063"^^xsd:float .
+
+ex:Bleik a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Andøy" ;
+            ex:postalCode "8481" ] ;
+    ex:geonameID <https://sws.geonames.org/3161008/> ;
+    ex:locatedOn ex:Andøya ;
+    wgs84_pos:lat "69.27525621"^^xsd:float ;
+    wgs84_pos:long "15.96876521"^^xsd:float .
+
+ex:Braset a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Meløy" ;
+            ex:postalCode "8178" ] ;
+    ex:geonameID <https://sws.geonames.org/3152288/> ;
+    ex:locatedOn ex:Helgelandskysten ;
+    wgs84_pos:lat "66.71557422"^^xsd:float ;
+    wgs84_pos:long "13.6710637"^^xsd:float .
+
+ex:Bukkekjerka a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "Nøss" ;
+            ex:municipality "Andøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3144084/> ;
+    ex:locatedOn ex:Andøya ;
+    wgs84_pos:lat "69.10416104"^^xsd:float ;
+    wgs84_pos:long "15.57320704"^^xsd:float .
+
+ex:Eggum a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Vestvågøy" ;
+            ex:postalCode "8360" ] ;
+    ex:geonameID <https://sws.geonames.org/3158757/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.30912619"^^xsd:float ;
+    wgs84_pos:long "13.66793567"^^xsd:float .
+
+ex:Eikelandsfossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Sunnfjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3138433/> ;
+    ex:locatedOn ex:Gaularfjellet ;
+    wgs84_pos:lat "61.33647943"^^xsd:float ;
+    wgs84_pos:long "5.88167349"^^xsd:float .
+
+ex:Eldhusøya a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Averøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/9536999/> ;
+    ex:locatedOn ex:Atlanterhavsvegen ;
+    wgs84_pos:lat "63.01806806"^^xsd:float ;
+    wgs84_pos:long "7.36353167"^^xsd:float .
+
+ex:Ersfjordstranda a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "Steinfjord" ;
+            ex:municipality "Senja" ;
+            ex:postalCode "9385" ] ;
+    ex:geonameID <https://sws.geonames.org/3158118/> ;
+    ex:locatedOn ex:Senja ;
+    wgs84_pos:lat "69.47902626"^^xsd:float ;
+    wgs84_pos:long "17.39420659"^^xsd:float .
+
+ex:Flotane a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Aurland" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3148803/> ;
+    ex:locatedOn ex:Aurlandsfjellet ;
+    wgs84_pos:lat "61.00775251"^^xsd:float ;
+    wgs84_pos:long "7.33157301"^^xsd:float .
+
+ex:Flydalsjuvet a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Stranda" ;
+            ex:postalCode "6216" ] ;
+    ex:geonameID <https://sws.geonames.org/3146410/> ;
+    ex:locatedOn ex:Geiranger-Trollstigen ;
+    wgs84_pos:lat "62.08982785"^^xsd:float ;
+    wgs84_pos:long "7.22329385"^^xsd:float .
+
+ex:FolldalGruver a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Folldal" ;
+            ex:postalCode "2580" ] ;
+    ex:geonameID <https://sws.geonames.org/3159657/> ;
+    ex:locatedOn ex:Rondane ;
+    wgs84_pos:lat "62.14134284"^^xsd:float ;
+    wgs84_pos:long "9.99094317"^^xsd:float .
+
+ex:Fossestien a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Lyngstadbotnen" ;
+            ex:municipality "Sunnfjord" ;
+            ex:postalCode "6978" ] ;
+    ex:geonameID <https://sws.geonames.org/8468644/> ;
+    ex:locatedOn ex:Gaularfjellet ;
+    wgs84_pos:lat "61.32854323"^^xsd:float ;
+    wgs84_pos:long "6.27236158"^^xsd:float .
+
+ex:GamleStrynefjellsvegen-Attraksjoner rdf:first ex:Hjelle ;
+    rdf:rest ( ex:JølBru ex:Videfossen ex:Øvstefoss ex:GamleStrynefjellsvegen ) .
+
+ex:GamleStrynefjellsvegenEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Videseter" ;
+            ex:municipality "Stryn" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3152591/> ;
+    wgs84_pos:lat "61.93703744"^^xsd:float ;
+    wgs84_pos:long "7.26437113"^^xsd:float .
+
+ex:GamleStrynefjellsvegenStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "Grotli" ;
+            ex:municipality "Skjåk" ;
+            ex:postalCode "2695" ] ;
+    ex:geonameID <https://sws.geonames.org/9536660/> ;
+    wgs84_pos:lat "62.01350371"^^xsd:float ;
+    wgs84_pos:long "7.63031681"^^xsd:float .
+
+ex:Gaularfjellet-Attraksjoner rdf:first ex:Eikelandsfossen ;
+    rdf:rest ( ex:Fossestien ex:HestadKapell ex:Likholefossen ex:Utsikten ex:Vallestadfossen ex:Torsnesstølen-Malawi ) .
+
+ex:GaularfjelletEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Sogndal" ;
+            ex:postalCode "6899" ] ;
+    ex:geonameID <https://sws.geonames.org/3162116/> ;
+    wgs84_pos:lat "61.210673"^^xsd:float ;
+    wgs84_pos:long "6.527917"^^xsd:float .
+
+ex:GaularfjelletStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Stranda" ;
+            ex:municipality "Sunnfjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/9536656/> ;
+    wgs84_pos:lat "61.423073"^^xsd:float ;
+    wgs84_pos:long "6.134652"^^xsd:float .
+
+ex:Geiranger-Trollstigen-Attraksjoner rdf:first ex:Trollstigen ;
+    rdf:rest ( ex:Gudbrandsjuvet ex:Juvet ex:LingeFerjekai ex:Ørnesvingen ex:Flydalsjuvet ) .
+
+ex:Geiranger-TrollstigenEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Skjåk" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/9536660/> ;
+    wgs84_pos:lat "62.014219"^^xsd:float ;
+    wgs84_pos:long "7.393992"^^xsd:float .
+
+ex:Geiranger-TrollstigenStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Rauma" ;
+            ex:postalCode "6300" ] ;
+    ex:geonameID <https://sws.geonames.org/3137981/> ;
+    wgs84_pos:lat "62.53207"^^xsd:float ;
+    wgs84_pos:long "7.736939"^^xsd:float .
+
+ex:Geitøya a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Averøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/9536999/> ;
+    ex:locatedOn ex:Atlanterhavsvegen ;
+    wgs84_pos:lat "63.02150088"^^xsd:float ;
+    wgs84_pos:long "7.38107744"^^xsd:float .
+
+ex:Gimsøystraumen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Vågan" ;
+            ex:postalCode "8313" ] ;
+    ex:geonameID <https://sws.geonames.org/9474844/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.26079972"^^xsd:float ;
+    wgs84_pos:long "14.26994498"^^xsd:float .
+
+ex:Gjende a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "Gjendesheim" ;
+            ex:municipality "Vågå" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/8131567/> ;
+    ex:locatedOn ex:Valdresflye ;
+    wgs84_pos:lat "61.49518529"^^xsd:float ;
+    wgs84_pos:long "8.80996192"^^xsd:float .
+
+ex:Godøystraumen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Bodø" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3155434/> ;
+    ex:locatedOn ex:Helgelandskysten ;
+    wgs84_pos:lat "67.23986268"^^xsd:float ;
+    wgs84_pos:long "14.71175316"^^xsd:float .
+
+ex:Gornitak a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Unjárga" ;
+            ex:postalCode "9840" ] ;
+    ex:geonameID <https://sws.geonames.org/9536504/> ;
+    ex:locatedOn ex:Varanger ;
+    wgs84_pos:lat "70.17624391"^^xsd:float ;
+    wgs84_pos:long "28.7140208"^^xsd:float .
+
+ex:Grunnfør a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "Grunnfør" ;
+            ex:municipality "Hadsel" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3154664/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.42124119"^^xsd:float ;
+    wgs84_pos:long "14.56721148"^^xsd:float .
+
+ex:Gudbrandsjuvet a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Fjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3134903/> ;
+    ex:locatedOn ex:Geiranger-Trollstigen ;
+    wgs84_pos:lat "62.33086492"^^xsd:float ;
+    wgs84_pos:long "7.47105147"^^xsd:float .
+
+ex:Gårdsvatnet a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "Grundstad" ;
+            ex:municipality "Vestvågøy" ;
+            ex:postalCode "8360" ] ;
+    ex:geonameID <https://sws.geonames.org/3146679/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.27200593"^^xsd:float ;
+    wgs84_pos:long "14.05627068"^^xsd:float .
+
+ex:Hamningberg a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Båtsfjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/779673/> ;
+    ex:locatedOn ex:Varanger ;
+    wgs84_pos:lat "70.54112485"^^xsd:float ;
+    wgs84_pos:long "30.6099191"^^xsd:float .
+
+ex:Hardanger-Attraksjoner rdf:first ex:Hereiane ;
+    rdf:rest ( ex:Hesthamar ex:Låtefoss ex:Skjervsfossen ex:Steinsdalsfossen ex:Steinstøberget ) .
+
+ex:HardangerEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Ullensvang" ;
+            ex:postalCode "5763" ] ;
+    ex:geonameID <https://sws.geonames.org/3137029/> ;
+    wgs84_pos:lat "59.944362"^^xsd:float ;
+    wgs84_pos:long "6.584351"^^xsd:float .
+
+ex:HardangerStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Voss herad" ;
+            ex:postalCode "5736" ] ;
+    ex:geonameID <https://sws.geonames.org/3155247/> ;
+    wgs84_pos:lat "60.529691"^^xsd:float ;
+    wgs84_pos:long "6.728418"^^xsd:float .
+
+ex:Hardangervidda-Attraksjoner rdf:first ex:Måbødalen ;
+    rdf:rest ( ex:Vøringsfossen ex:Hardangervidda ) .
+
+ex:HardangerviddaEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Eidfjord" ;
+            ex:postalCode "5786" ] ;
+    ex:geonameID <https://sws.geonames.org/3154376/> ;
+    wgs84_pos:lat "60.454882"^^xsd:float ;
+    wgs84_pos:long "7.092646"^^xsd:float .
+
+ex:HardangerviddaStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Viken" ;
+            ex:hamlet "Haugastøl" ;
+            ex:municipality "Hol" ;
+            ex:postalCode "3595" ] ;
+    ex:geonameID <https://sws.geonames.org/3143992/> ;
+    wgs84_pos:lat "60.510968"^^xsd:float ;
+    wgs84_pos:long "7.851115"^^xsd:float .
+
+ex:Havøysund-Attraksjoner rdf:first ex:Havøysund ;
+    rdf:rest ( ex:Lillefjord ex:Selvika ex:Snefjord ) .
+
+ex:HavøysundEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Hammerfest" ;
+            ex:postalCode "9715" ] ;
+    ex:geonameID <https://sws.geonames.org/778085/> ;
+    wgs84_pos:lat "70.611315"^^xsd:float ;
+    wgs84_pos:long "24.722318"^^xsd:float .
+
+ex:HavøysundStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Måsøy" ;
+            ex:postalCode "9690" ] ;
+    ex:geonameID <https://sws.geonames.org/779622/> ;
+    wgs84_pos:lat "70.99541286"^^xsd:float ;
+    wgs84_pos:long "24.6866305"^^xsd:float .
+
+ex:Helgelandskysten-Attraksjoner rdf:first ex:Godøystraumen ;
+    rdf:rest ( ex:Storvika ex:Braset ex:Jektvik ex:Hellåga ) .
+
+ex:HelgelandskystenEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Bindal" ;
+            ex:postalCode "7982" ] ;
+    ex:geonameID <https://sws.geonames.org/3136204/> ;
+    wgs84_pos:lat "65.131221"^^xsd:float ;
+    wgs84_pos:long "12.118199"^^xsd:float .
+
+ex:HelgelandskystenStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Bodø" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3155434/> ;
+    wgs84_pos:lat "67.242017"^^xsd:float ;
+    wgs84_pos:long "14.715071"^^xsd:float .
+
+ex:Hellåga a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Rana" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3156970/> ;
+    ex:locatedOn ex:Helgelandskysten ;
+    wgs84_pos:lat "66.31407183"^^xsd:float ;
+    wgs84_pos:long "13.28413103"^^xsd:float .
+
+ex:Hereiane a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Ullensvang" ;
+            ex:postalCode "5628" ] ;
+    ex:geonameID <https://sws.geonames.org/3135162/> ;
+    ex:locatedOn ex:Hardanger ;
+    wgs84_pos:lat "60.3290127"^^xsd:float ;
+    wgs84_pos:long "6.33855315"^^xsd:float .
+
+ex:HestadKapell a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Sunnfjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3154365/> ;
+    ex:locatedOn ex:Gaularfjellet ;
+    wgs84_pos:lat "61.32854842"^^xsd:float ;
+    wgs84_pos:long "5.93670461"^^xsd:float .
+
+ex:Hesthamar a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Utne" ;
+            ex:municipality "Ullensvang" ;
+            ex:postalCode "5778" ] ;
+    ex:geonameID <https://sws.geonames.org/3152778/> ;
+    ex:locatedOn ex:Hardanger ;
+    wgs84_pos:lat "60.43514995"^^xsd:float ;
+    wgs84_pos:long "6.56275341"^^xsd:float .
+
+ex:Hjelle a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Stryn" ;
+            ex:postalCode "6798" ] ;
+    ex:geonameID <https://sws.geonames.org/3152591/> ;
+    ex:locatedOn ex:GamleStrynefjellsvegen ;
+    wgs84_pos:lat "61.91476594"^^xsd:float ;
+    wgs84_pos:long "7.11355441"^^xsd:float .
+
+ex:Husøy a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Senja" ;
+            ex:postalCode "9389" ] ;
+    ex:geonameID <https://sws.geonames.org/9404013/> ;
+    ex:locatedOn ex:Senja ;
+    wgs84_pos:lat "69.53293689"^^xsd:float ;
+    wgs84_pos:long "17.68617653"^^xsd:float .
+
+ex:Hågå a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "Vevang" ;
+            ex:municipality "Hustadvika" ;
+            ex:postalCode "6494" ] ;
+    ex:geonameID <https://sws.geonames.org/3131904/> ;
+    ex:locatedOn ex:Atlanterhavsvegen ;
+    wgs84_pos:lat "63.00741115"^^xsd:float ;
+    wgs84_pos:long "7.29800726"^^xsd:float .
+
+ex:HøseBru a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Suldal" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3162714/> ;
+    ex:locatedOn ex:Ryfylke ;
+    wgs84_pos:lat "59.48132549"^^xsd:float ;
+    wgs84_pos:long "6.25974473"^^xsd:float .
+
+ex:Jektvik a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "Jektvik" ;
+            ex:municipality "Rødøy" ;
+            ex:postalCode "8187" ] ;
+    ex:geonameID <https://sws.geonames.org/3150895/> ;
+    ex:locatedOn ex:Helgelandskysten ;
+    wgs84_pos:lat "66.62419477"^^xsd:float ;
+    wgs84_pos:long "13.28929668"^^xsd:float .
+
+ex:Juvet a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Fjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3134903/> ;
+    ex:locatedOn ex:Geiranger-Trollstigen ;
+    wgs84_pos:lat "62.33077977"^^xsd:float ;
+    wgs84_pos:long "7.47359609"^^xsd:float .
+
+ex:Jæren-Attraksjoner rdf:first ex:OrreFriluftshus ;
+    rdf:rest ( ex:KvassheimFyr ex:Orrestranda ex:VarhaugGamleKyrkjegard ) .
+
+ex:JærenEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "Bogsdalen" ;
+            ex:municipality "Hå" ;
+            ex:postalCode "4363" ] ;
+    ex:geonameID <https://sws.geonames.org/3159857/> ;
+    wgs84_pos:lat "58.532936"^^xsd:float ;
+    wgs84_pos:long "5.77117"^^xsd:float .
+
+ex:JærenStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "Bore" ;
+            ex:municipality "Klepp" ;
+            ex:postalCode "4352" ] ;
+    ex:geonameID <https://sws.geonames.org/9404425/> ;
+    wgs84_pos:lat "58.791229"^^xsd:float ;
+    wgs84_pos:long "5.592277"^^xsd:float .
+
+ex:JølBru a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Videseter" ;
+            ex:municipality "Stryn" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3152591/> ;
+    ex:locatedOn ex:GamleStrynefjellsvegen ;
+    wgs84_pos:lat "61.93566058"^^xsd:float ;
+    wgs84_pos:long "7.24471737"^^xsd:float .
+
+ex:Kjeksa a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Hustadvika" ;
+            ex:postalCode "6430" ] ;
+    ex:geonameID <https://sws.geonames.org/3158113/> ;
+    ex:locatedOn ex:Atlanterhavsvegen ;
+    wgs84_pos:lat "62.9174532"^^xsd:float ;
+    wgs84_pos:long "6.93645698"^^xsd:float .
+
+ex:Kleivodden a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Andøy" ;
+            ex:postalCode "8481" ] ;
+    ex:geonameID <https://sws.geonames.org/3161008/> ;
+    ex:locatedOn ex:Andøya ;
+    wgs84_pos:lat "69.29753294"^^xsd:float ;
+    wgs84_pos:long "15.99351398"^^xsd:float .
+
+ex:KvassheimFyr a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Hå" ;
+            ex:postalCode "4362" ] ;
+    ex:geonameID <https://sws.geonames.org/3148906/> ;
+    ex:locatedOn ex:Jæren ;
+    wgs84_pos:lat "58.54681446"^^xsd:float ;
+    wgs84_pos:long "5.69460808"^^xsd:float .
+
+ex:Liasanden a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Lom" ;
+            ex:postalCode "2687" ] ;
+    ex:geonameID <https://sws.geonames.org/9537133/> ;
+    ex:locatedOn ex:Sognefjellet ;
+    wgs84_pos:lat "61.67986219"^^xsd:float ;
+    wgs84_pos:long "8.22536575"^^xsd:float .
+
+ex:Likholefossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Lyngstadbotnen" ;
+            ex:municipality "Sunnfjord" ;
+            ex:postalCode "6978" ] ;
+    ex:geonameID <https://sws.geonames.org/8468644/> ;
+    ex:locatedOn ex:Gaularfjellet ;
+    wgs84_pos:lat "61.32854323"^^xsd:float ;
+    wgs84_pos:long "6.27236158"^^xsd:float .
+
+ex:Lillefjord a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Måsøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/778921/> ;
+    ex:locatedOn ex:Havøysund ;
+    wgs84_pos:lat "70.69444912"^^xsd:float ;
+    wgs84_pos:long "24.67410824"^^xsd:float .
+
+ex:LingeFerjekai a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Fjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3158643/> ;
+    ex:locatedOn ex:Geiranger-Trollstigen ;
+    wgs84_pos:lat "62.28442119"^^xsd:float ;
+    wgs84_pos:long "7.190646"^^xsd:float .
+
+ex:Lofoten-Attraksjoner rdf:first ex:Akkarvikodden ;
+    rdf:rest ( ex:Austnesfjorden ex:Eggum ex:Gimsøystraumen ex:Grunnfør ex:Gårdsvatnet ex:Nusfjord ex:Rambergstranda ex:Reinehalsen ex:Torvdalshalsen ex:Vikten ) .
+
+ex:LofotenEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Moskenes" ;
+            ex:postalCode "8392" ] ;
+    ex:geonameID <https://sws.geonames.org/3131150/> ;
+    wgs84_pos:lat "67.880584"^^xsd:float ;
+    wgs84_pos:long "12.978501"^^xsd:float .
+
+ex:LofotenStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Hadsel" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3153921/> ;
+    wgs84_pos:lat "68.456154"^^xsd:float ;
+    wgs84_pos:long "15.203437"^^xsd:float .
+
+ex:Lovra a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Suldal" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3132280/> ;
+    ex:locatedOn ex:Ryfylke ;
+    wgs84_pos:lat "59.41982499"^^xsd:float ;
+    wgs84_pos:long "6.21975395"^^xsd:float .
+
+ex:Lysefjorden-Preikestolen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Strand" ;
+            ex:postalCode "4105" ] ;
+    ex:geonameID <https://sws.geonames.org/3150729/> ;
+    ex:locatedOn ex:Ryfylke ;
+    wgs84_pos:lat "58.9972273"^^xsd:float ;
+    wgs84_pos:long "6.08170379"^^xsd:float .
+
+ex:Låtefoss a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Ullensvang" ;
+            ex:postalCode "5763" ] ;
+    ex:geonameID <https://sws.geonames.org/3133652/> ;
+    ex:locatedOn ex:Hardanger ;
+    wgs84_pos:lat "59.94836158"^^xsd:float ;
+    wgs84_pos:long "6.58365582"^^xsd:float .
+
+ex:Mefjellet a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Lom" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3161369/> ;
+    ex:locatedOn ex:Sognefjellet ;
+    wgs84_pos:lat "61.55900909"^^xsd:float ;
+    wgs84_pos:long "7.95567587"^^xsd:float .
+
+ex:Myrbærholmbrua a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Hustadvika" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3131904/> ;
+    ex:locatedOn ex:Atlanterhavsvegen ;
+    wgs84_pos:lat "63.01683243"^^xsd:float ;
+    wgs84_pos:long "7.34705161"^^xsd:float .
+
+ex:Måbødalen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Eidfjord" ;
+            ex:postalCode "5784" ] ;
+    ex:geonameID <https://sws.geonames.org/3150370/> ;
+    ex:locatedOn ex:Hardangervidda ;
+    wgs84_pos:lat "60.4180234"^^xsd:float ;
+    wgs84_pos:long "7.19921435"^^xsd:float .
+
+ex:NedreOscarshaug a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Luster" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3161369/> ;
+    ex:locatedOn ex:Sognefjellet ;
+    wgs84_pos:lat "61.50819353"^^xsd:float ;
+    wgs84_pos:long "7.81149716"^^xsd:float .
+
+ex:NessebyKirke a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Unjárga" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/778560/> ;
+    ex:locatedOn ex:Varanger ;
+    wgs84_pos:lat "70.14559409"^^xsd:float ;
+    wgs84_pos:long "28.8631532"^^xsd:float .
+
+ex:Nusfjord a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Flakstad" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3144041/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.0378397"^^xsd:float ;
+    wgs84_pos:long "13.34841907"^^xsd:float .
+
+ex:OrreFriluftshus a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Klepp" ;
+            ex:postalCode "4343" ] ;
+    ex:geonameID <https://sws.geonames.org/3143355/> ;
+    ex:locatedOn ex:Jæren ;
+    wgs84_pos:lat "58.74153631"^^xsd:float ;
+    wgs84_pos:long "5.52271794"^^xsd:float .
+
+ex:Orrestranda a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Klepp" ;
+            ex:postalCode "4343" ] ;
+    ex:geonameID <https://sws.geonames.org/3143355/> ;
+    ex:locatedOn ex:Jæren ;
+    wgs84_pos:lat "58.74153631"^^xsd:float ;
+    wgs84_pos:long "5.52271794"^^xsd:float .
+
+ex:Rambergstranda a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Flakstad" ;
+            ex:postalCode "8380" ] ;
+    ex:geonameID <https://sws.geonames.org/9537029/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.09839399"^^xsd:float ;
+    wgs84_pos:long "13.24625977"^^xsd:float .
+
+ex:Reinehalsen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Moskenes" ;
+            ex:postalCode "8390" ] ;
+    ex:geonameID <https://sws.geonames.org/3142127/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "67.92818563"^^xsd:float ;
+    wgs84_pos:long "13.08340025"^^xsd:float .
+
+ex:Rjupa a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Øystre Slidre" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3161921/> ;
+    ex:locatedOn ex:Valdresflye ;
+    wgs84_pos:lat "61.34313613"^^xsd:float ;
+    wgs84_pos:long "8.81272871"^^xsd:float .
+
+ex:Rondane-Attraksjoner rdf:first ex:SolliaKirke ;
+    rdf:rest ( ex:AtnbrufossenVannbruksmuseum ex:Sohlbergplassen ex:Strømbu ex:FolldalGruver ) .
+
+ex:RondaneEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Ringebu" ;
+            ex:postalCode "2632" ] ;
+    ex:geonameID <https://sws.geonames.org/9535979/> ;
+    wgs84_pos:lat "61.682254"^^xsd:float ;
+    wgs84_pos:long "10.125546"^^xsd:float .
+
+ex:RondaneStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Folldal" ;
+            ex:postalCode "2580" ] ;
+    ex:geonameID <https://sws.geonames.org/3156868/> ;
+    wgs84_pos:lat "62.129999"^^xsd:float ;
+    wgs84_pos:long "9.999286"^^xsd:float .
+
+ex:Ropeid a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "Ropeid" ;
+            ex:municipality "Suldal" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3162714/> ;
+    ex:locatedOn ex:Ryfylke ;
+    wgs84_pos:lat "59.48538675"^^xsd:float ;
+    wgs84_pos:long "6.21209663"^^xsd:float .
+
+ex:Ryfylke-Attraksjoner rdf:first ex:Allmannajuvet ;
+    rdf:rest ( ex:HøseBru ex:Lovra ex:Lysefjorden-Preikestolen ex:Ropeid ex:Svandalsfossen ex:Tau-SkjultPunktForGooglehjelp ) .
+
+ex:RyfylkeEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Strand" ;
+            ex:postalCode "4110" ] ;
+    ex:geonameID <https://sws.geonames.org/3154308/> ;
+    wgs84_pos:lat "58.910563"^^xsd:float ;
+    wgs84_pos:long "6.077167"^^xsd:float .
+
+ex:RyfylkeStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Håra" ;
+            ex:municipality "Ullensvang" ;
+            ex:postalCode "5760" ] ;
+    ex:geonameID <https://sws.geonames.org/3153895/> ;
+    wgs84_pos:lat "59.81383432"^^xsd:float ;
+    wgs84_pos:long "6.77366577"^^xsd:float .
+
+ex:Selvika a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Måsøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/779622/> ;
+    ex:locatedOn ex:Havøysund ;
+    wgs84_pos:lat "70.91438188"^^xsd:float ;
+    wgs84_pos:long "24.60957875"^^xsd:float .
+
+ex:Senja-Attraksjoner rdf:first ex:Bergsbotn ;
+    rdf:rest ( ex:Ersfjordstranda ex:Husøy ex:Tungeneset ) .
+
+ex:SenjaEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Senja" ;
+            ex:postalCode "9379" ] ;
+    ex:geonameID <https://sws.geonames.org/3154639/> ;
+    wgs84_pos:lat "69.362778"^^xsd:float ;
+    wgs84_pos:long "17.053889"^^xsd:float .
+
+ex:SenjaStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "Botnhamn" ;
+            ex:municipality "Senja" ;
+            ex:postalCode "9373" ] ;
+    ex:geonameID <https://sws.geonames.org/3160490/> ;
+    wgs84_pos:lat "69.505833"^^xsd:float ;
+    wgs84_pos:long "17.902222"^^xsd:float .
+
+ex:Skjervsfossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Voss herad" ;
+            ex:postalCode "5736" ] ;
+    ex:geonameID <https://sws.geonames.org/3137292/> ;
+    ex:locatedOn ex:Hardanger ;
+    wgs84_pos:lat "60.58820037"^^xsd:float ;
+    wgs84_pos:long "6.63390853"^^xsd:float .
+
+ex:Snefjord a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "Snefjord" ;
+            ex:municipality "Måsøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/777612/> ;
+    ex:locatedOn ex:Havøysund ;
+    wgs84_pos:lat "70.78760719"^^xsd:float ;
+    wgs84_pos:long "24.606955"^^xsd:float .
+
+ex:Sognefjellet-Attraksjoner rdf:first ex:Liasanden ;
+    rdf:rest ( ex:Mefjellet ex:NedreOscarshaug ex:Sognefjellshytta ex:Vegaskjelet ) .
+
+ex:SognefjelletEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Luster" ;
+            ex:postalCode "6868" ] ;
+    ex:geonameID <https://sws.geonames.org/7626363/> ;
+    wgs84_pos:lat "61.395127"^^xsd:float ;
+    wgs84_pos:long "7.303172"^^xsd:float .
+
+ex:SognefjelletStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Lom" ;
+            ex:postalCode "2686" ] ;
+    ex:geonameID <https://sws.geonames.org/3163081/> ;
+    wgs84_pos:lat "61.831129"^^xsd:float ;
+    wgs84_pos:long "8.554187"^^xsd:float .
+
+ex:Sognefjellshytta a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Lom" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3160466/> ;
+    ex:locatedOn ex:Sognefjellet ;
+    wgs84_pos:lat "61.56517851"^^xsd:float ;
+    wgs84_pos:long "7.99803176"^^xsd:float .
+
+ex:Sohlbergplassen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Stor-Elvdal" ;
+            ex:postalCode "2477" ] ;
+    ex:geonameID <https://sws.geonames.org/3162514/> ;
+    ex:locatedOn ex:Rondane ;
+    wgs84_pos:lat "61.88052961"^^xsd:float ;
+    wgs84_pos:long "10.18534477"^^xsd:float .
+
+ex:SolliaKirke a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "Sollia" ;
+            ex:municipality "Stor-Elvdal" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3137801/> ;
+    ex:locatedOn ex:Rondane ;
+    wgs84_pos:lat "61.7798027"^^xsd:float ;
+    wgs84_pos:long "10.3964147"^^xsd:float .
+
+ex:Stegastein a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Aurland" ;
+            ex:postalCode "5745" ] ;
+    ex:geonameID <https://sws.geonames.org/8354589/> ;
+    ex:locatedOn ex:Aurlandsfjellet ;
+    wgs84_pos:lat "60.90836182"^^xsd:float ;
+    wgs84_pos:long "7.21279388"^^xsd:float .
+
+ex:Steilneset a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Vardø" ;
+            ex:postalCode "9950" ] ;
+    ex:geonameID <https://sws.geonames.org/777019/> ;
+    ex:locatedOn ex:Varanger ;
+    wgs84_pos:lat "70.37024991"^^xsd:float ;
+    wgs84_pos:long "31.10486622"^^xsd:float .
+
+ex:Steinplassen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Vågå" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3161921/> ;
+    ex:locatedOn ex:Valdresflye ;
+    wgs84_pos:lat "61.40262512"^^xsd:float ;
+    wgs84_pos:long "8.80822953"^^xsd:float .
+
+ex:Steinsdalsfossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Kvam herad" ;
+            ex:postalCode "5600" ] ;
+    ex:geonameID <https://sws.geonames.org/3145718/> ;
+    ex:locatedOn ex:Hardanger ;
+    wgs84_pos:lat "60.36995122"^^xsd:float ;
+    wgs84_pos:long "6.10901902"^^xsd:float .
+
+ex:Steinstøberget a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Kvam herad" ;
+            ex:postalCode "5612" ] ;
+    ex:geonameID <https://sws.geonames.org/3156236/> ;
+    ex:locatedOn ex:Hardanger ;
+    wgs84_pos:lat "60.39632101"^^xsd:float ;
+    wgs84_pos:long "6.31200664"^^xsd:float .
+
+ex:Storseisundbrua a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Averøy" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3131904/> ;
+    ex:locatedOn ex:Atlanterhavsvegen ;
+    wgs84_pos:lat "63.0167702"^^xsd:float ;
+    wgs84_pos:long "7.35451869"^^xsd:float .
+
+ex:Storvika a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Gildeskål" ;
+            ex:postalCode "8145" ] ;
+    ex:geonameID <https://sws.geonames.org/3135907/> ;
+    ex:locatedOn ex:Helgelandskysten ;
+    wgs84_pos:lat "66.95963447"^^xsd:float ;
+    wgs84_pos:long "13.80421369"^^xsd:float .
+
+ex:Strømbu a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Folldal" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3162514/> ;
+    ex:locatedOn ex:Rondane ;
+    wgs84_pos:lat "61.92152927"^^xsd:float ;
+    wgs84_pos:long "10.05492336"^^xsd:float .
+
+ex:Svandalsfossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Sauda" ;
+            ex:postalCode "4208" ] ;
+    ex:geonameID <https://sws.geonames.org/9404008/> ;
+    ex:locatedOn ex:Ryfylke ;
+    wgs84_pos:lat "59.62537531"^^xsd:float ;
+    wgs84_pos:long "6.29210259"^^xsd:float .
+
+ex:Tau-SkjultPunktForGooglehjelp a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Strand" ;
+            ex:postalCode "4120" ] ;
+    ex:geonameID <https://sws.geonames.org/3134776/> ;
+    ex:locatedOn ex:Ryfylke ;
+    wgs84_pos:lat "59.06856122"^^xsd:float ;
+    wgs84_pos:long "5.92155829"^^xsd:float .
+
+ex:Torsnesstølen-Malawi a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Sogndal" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3158543/> ;
+    ex:locatedOn ex:Gaularfjellet ;
+    wgs84_pos:lat "61.33737278"^^xsd:float ;
+    wgs84_pos:long "6.43085648"^^xsd:float .
+
+ex:Torvdalshalsen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "" ;
+            ex:municipality "Vestvågøy" ;
+            ex:postalCode "8360" ] ;
+    ex:geonameID <https://sws.geonames.org/3138258/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.26218928"^^xsd:float ;
+    wgs84_pos:long "13.82648986"^^xsd:float .
+
+ex:Trollstigen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Rauma" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3160905/> ;
+    ex:locatedOn ex:Geiranger-Trollstigen ;
+    wgs84_pos:lat "62.45339203"^^xsd:float ;
+    wgs84_pos:long "7.6631825"^^xsd:float .
+
+ex:Tungeneset a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "Steinfjord" ;
+            ex:municipality "Senja" ;
+            ex:postalCode "9385" ] ;
+    ex:geonameID <https://sws.geonames.org/3158118/> ;
+    ex:locatedOn ex:Senja ;
+    wgs84_pos:lat "69.486956"^^xsd:float ;
+    wgs84_pos:long "17.33325667"^^xsd:float .
+
+ex:Utsikten a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Sogndal" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3158543/> ;
+    ex:locatedOn ex:Gaularfjellet ;
+    wgs84_pos:lat "61.35145674"^^xsd:float ;
+    wgs84_pos:long "6.51817405"^^xsd:float .
+
+ex:Valdresflye-Attraksjoner rdf:first ex:Rjupa ;
+    rdf:rest ( ex:Steinplassen ex:Vargebakkane ex:Gjende ) .
+
+ex:ValdresflyeEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Øystre Slidre" ;
+            ex:postalCode "2952" ] ;
+    ex:geonameID <https://sws.geonames.org/3161921/> ;
+    wgs84_pos:lat "61.269397"^^xsd:float ;
+    wgs84_pos:long "8.863413"^^xsd:float .
+
+ex:ValdresflyeStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Vågå" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3142376/> ;
+    wgs84_pos:lat "61.618944"^^xsd:float ;
+    wgs84_pos:long "8.972654"^^xsd:float .
+
+ex:Vallestadfossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Mossestadhaug" ;
+            ex:municipality "Sunnfjord" ;
+            ex:postalCode "6978" ] ;
+    ex:geonameID <https://sws.geonames.org/8468644/> ;
+    ex:locatedOn ex:Gaularfjellet ;
+    wgs84_pos:lat "61.35998579"^^xsd:float ;
+    wgs84_pos:long "6.21761959"^^xsd:float .
+
+ex:Varanger-Attraksjoner rdf:first ex:Gornitak ;
+    rdf:rest ( ex:Hamningberg ex:NessebyKirke ex:BirdingVaranger ex:Steilneset ) .
+
+ex:VarangerEnd a ex:turistvegEnd ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Unjárga" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/777032/> ;
+    wgs84_pos:lat "70.173942"^^xsd:float ;
+    wgs84_pos:long "28.567617"^^xsd:float .
+
+ex:VarangerStart a ex:turistvegStart ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Båtsfjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/779673/> ;
+    wgs84_pos:lat "70.539118"^^xsd:float ;
+    wgs84_pos:long "30.605791"^^xsd:float .
+
+ex:Vargebakkane a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Vågå" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3161921/> ;
+    ex:locatedOn ex:Valdresflye ;
+    wgs84_pos:lat "61.46443914"^^xsd:float ;
+    wgs84_pos:long "8.8086129"^^xsd:float .
+
+ex:VarhaugGamleKyrkjegard a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Rogaland" ;
+            ex:hamlet "" ;
+            ex:municipality "Hå" ;
+            ex:postalCode "4360" ] ;
+    ex:geonameID <https://sws.geonames.org/3160333/> ;
+    ex:locatedOn ex:Jæren ;
+    wgs84_pos:lat "58.61367041"^^xsd:float ;
+    wgs84_pos:long "5.62462347"^^xsd:float .
+
+ex:Vedahaugane a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Aurland" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3148803/> ;
+    ex:locatedOn ex:Aurlandsfjellet ;
+    wgs84_pos:lat "61.03176844"^^xsd:float ;
+    wgs84_pos:long "7.32773954"^^xsd:float .
+
+ex:Vegaskjelet a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Lom" ;
+            ex:postalCode "2687" ] ;
+    ex:geonameID <https://sws.geonames.org/3160466/> ;
+    ex:locatedOn ex:Sognefjellet ;
+    wgs84_pos:lat "61.66540473"^^xsd:float ;
+    wgs84_pos:long "8.18466321"^^xsd:float .
+
+ex:Videfossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Videseter" ;
+            ex:municipality "Stryn" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3152591/> ;
+    ex:locatedOn ex:GamleStrynefjellsvegen ;
+    wgs84_pos:lat "61.94030526"^^xsd:float ;
+    wgs84_pos:long "7.27278009"^^xsd:float .
+
+ex:Vikten a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Nordland" ;
+            ex:hamlet "Nordgården" ;
+            ex:municipality "Flakstad" ;
+            ex:postalCode "8382" ] ;
+    ex:geonameID <https://sws.geonames.org/3131633/> ;
+    ex:locatedOn ex:Lofoten ;
+    wgs84_pos:lat "68.13882524"^^xsd:float ;
+    wgs84_pos:long "13.31219568"^^xsd:float .
+
+ex:Vøringsfossen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Midtbø" ;
+            ex:municipality "Eidfjord" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3156095/> ;
+    ex:locatedOn ex:Hardangervidda ;
+    wgs84_pos:lat "60.42619251"^^xsd:float ;
+    wgs84_pos:long "7.25690437"^^xsd:float .
+
+ex:Ørnesvingen a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Møre og Romsdal" ;
+            ex:hamlet "" ;
+            ex:municipality "Stranda" ;
+            ex:postalCode "6216" ] ;
+    ex:geonameID <https://sws.geonames.org/6692393/> ;
+    ex:locatedOn ex:Geiranger-Trollstigen ;
+    wgs84_pos:lat "62.12626334"^^xsd:float ;
+    wgs84_pos:long "7.16721732"^^xsd:float .
+
+ex:Øvstefoss a ex:turistvegAttraksjon ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "Videseter" ;
+            ex:municipality "Stryn" ;
+            ex:postalCode "" ] ;
+    ex:geonameID <https://sws.geonames.org/3152591/> ;
+    ex:locatedOn ex:GamleStrynefjellsvegen ;
+    wgs84_pos:lat "61.93701546"^^xsd:float ;
+    wgs84_pos:long "7.26015421"^^xsd:float .
+
+<https://sws.geonames.org/3131150/> a gn:Feature .
+
+<https://sws.geonames.org/3131633/> a gn:Feature .
+
+<https://sws.geonames.org/3131994/> a gn:Feature .
+
+<https://sws.geonames.org/3132280/> a gn:Feature .
+
+<https://sws.geonames.org/3133652/> a gn:Feature .
+
+<https://sws.geonames.org/3134776/> a gn:Feature .
+
+<https://sws.geonames.org/3135162/> a gn:Feature .
+
+<https://sws.geonames.org/3135907/> a gn:Feature .
+
+<https://sws.geonames.org/3136204/> a gn:Feature .
+
+<https://sws.geonames.org/3137029/> a gn:Feature .
+
+<https://sws.geonames.org/3137292/> a gn:Feature .
+
+<https://sws.geonames.org/3137801/> a gn:Feature .
+
+<https://sws.geonames.org/3137981/> a gn:Feature .
+
+<https://sws.geonames.org/3138258/> a gn:Feature .
+
+<https://sws.geonames.org/3138433/> a gn:Feature .
+
+<https://sws.geonames.org/3142127/> a gn:Feature .
+
+<https://sws.geonames.org/3142376/> a gn:Feature .
+
+<https://sws.geonames.org/3143992/> a gn:Feature .
+
+<https://sws.geonames.org/3144041/> a gn:Feature .
+
+<https://sws.geonames.org/3144084/> a gn:Feature .
+
+<https://sws.geonames.org/3145718/> a gn:Feature .
+
+<https://sws.geonames.org/3146262/> a gn:Feature .
+
+<https://sws.geonames.org/3146410/> a gn:Feature .
+
+<https://sws.geonames.org/3146679/> a gn:Feature .
+
+<https://sws.geonames.org/3148569/> a gn:Feature .
+
+<https://sws.geonames.org/3148906/> a gn:Feature .
+
+<https://sws.geonames.org/3150370/> a gn:Feature .
+
+<https://sws.geonames.org/3150729/> a gn:Feature .
+
+<https://sws.geonames.org/3150895/> a gn:Feature .
+
+<https://sws.geonames.org/3151052/> a gn:Feature .
+
+<https://sws.geonames.org/3152288/> a gn:Feature .
+
+<https://sws.geonames.org/3152778/> a gn:Feature .
+
+<https://sws.geonames.org/3153895/> a gn:Feature .
+
+<https://sws.geonames.org/3153921/> a gn:Feature .
+
+<https://sws.geonames.org/3154005/> a gn:Feature .
+
+<https://sws.geonames.org/3154308/> a gn:Feature .
+
+<https://sws.geonames.org/3154365/> a gn:Feature .
+
+<https://sws.geonames.org/3154376/> a gn:Feature .
+
+<https://sws.geonames.org/3154639/> a gn:Feature .
+
+<https://sws.geonames.org/3154664/> a gn:Feature .
+
+<https://sws.geonames.org/3155247/> a gn:Feature .
+
+<https://sws.geonames.org/3155716/> a gn:Feature .
+
+<https://sws.geonames.org/3156095/> a gn:Feature .
+
+<https://sws.geonames.org/3156236/> a gn:Feature .
+
+<https://sws.geonames.org/3156868/> a gn:Feature .
+
+<https://sws.geonames.org/3156970/> a gn:Feature .
+
+<https://sws.geonames.org/3158113/> a gn:Feature .
+
+<https://sws.geonames.org/3158643/> a gn:Feature .
+
+<https://sws.geonames.org/3158757/> a gn:Feature .
+
+<https://sws.geonames.org/3159559/> a gn:Feature .
+
+<https://sws.geonames.org/3159657/> a gn:Feature .
+
+<https://sws.geonames.org/3159801/> a gn:Feature .
+
+<https://sws.geonames.org/3159857/> a gn:Feature .
+
+<https://sws.geonames.org/3160333/> a gn:Feature .
+
+<https://sws.geonames.org/3160490/> a gn:Feature .
+
+<https://sws.geonames.org/3160905/> a gn:Feature .
+
+<https://sws.geonames.org/3161219/> a gn:Feature .
+
+<https://sws.geonames.org/3162116/> a gn:Feature .
+
+<https://sws.geonames.org/3163081/> a gn:Feature .
+
+<https://sws.geonames.org/3163146/> a gn:Feature .
+
+<https://sws.geonames.org/6692393/> a gn:Feature .
+
+<https://sws.geonames.org/7626362/> a gn:Feature .
+
+<https://sws.geonames.org/7626363/> a gn:Feature .
+
+<https://sws.geonames.org/777019/> a gn:Feature .
+
+<https://sws.geonames.org/777032/> a gn:Feature .
+
+<https://sws.geonames.org/777612/> a gn:Feature .
+
+<https://sws.geonames.org/778085/> a gn:Feature .
+
+<https://sws.geonames.org/778560/> a gn:Feature .
+
+<https://sws.geonames.org/778921/> a gn:Feature .
+
+<https://sws.geonames.org/795678/> a gn:Feature .
+
+<https://sws.geonames.org/8131567/> a gn:Feature .
+
+<https://sws.geonames.org/8354589/> a gn:Feature .
+
+<https://sws.geonames.org/9404008/> a gn:Feature .
+
+<https://sws.geonames.org/9404013/> a gn:Feature .
+
+<https://sws.geonames.org/9404425/> a gn:Feature .
+
+<https://sws.geonames.org/9474844/> a gn:Feature .
+
+<https://sws.geonames.org/9535979/> a gn:Feature .
+
+<https://sws.geonames.org/9536504/> a gn:Feature .
+
+<https://sws.geonames.org/9536656/> a gn:Feature .
+
+<https://sws.geonames.org/9537029/> a gn:Feature .
+
+<https://sws.geonames.org/9537133/> a gn:Feature .
+
+<https://sws.geonames.org/3134903/> a gn:Feature .
+
+<https://sws.geonames.org/3143355/> a gn:Feature .
+
+<https://sws.geonames.org/3148803/> a gn:Feature .
+
+<https://sws.geonames.org/3155434/> a gn:Feature .
+
+<https://sws.geonames.org/3158118/> a gn:Feature .
+
+<https://sws.geonames.org/3158543/> a gn:Feature .
+
+<https://sws.geonames.org/3160466/> a gn:Feature .
+
+<https://sws.geonames.org/3161008/> a gn:Feature .
+
+<https://sws.geonames.org/3161369/> a gn:Feature .
+
+<https://sws.geonames.org/3162714/> a gn:Feature .
+
+<https://sws.geonames.org/779673/> a gn:Feature .
+
+ex:Andøya a ex:turistveg ;
+    ex:Length_km 58 ;
+    ex:attraksjoner ex:Andøya-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:AndøyaEnd ;
+    ex:turistvegStart ex:AndøyaStart ;
+    wgs84_pos:alt 65 .
+
+ex:Aurlandsfjellet a ex:turistveg ;
+    ex:Length_km 47 ;
+    ex:attraksjoner ex:Aurlandsfjellet-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:AurlandsfjelletEnd ;
+    ex:turistvegStart ex:AurlandsfjelletStart ;
+    wgs84_pos:alt 1306 .
+
+<https://sws.geonames.org/3131904/> a gn:Feature .
+
+<https://sws.geonames.org/3162514/> a gn:Feature .
+
+<https://sws.geonames.org/779622/> a gn:Feature .
+
+<https://sws.geonames.org/8468644/> a gn:Feature .
+
+<https://sws.geonames.org/9536660/> a gn:Feature .
+
+<https://sws.geonames.org/9536999/> a gn:Feature .
+
+ex:Hardangervidda a ex:turistveg,
+        ex:turistvegAttraksjon ;
+    ex:Length_km 67 ;
+    ex:address [ a ex:Address ;
+            ex:county "Vestland" ;
+            ex:hamlet "" ;
+            ex:municipality "Eidfjord" ;
+            ex:postalCode "" ] ;
+    ex:attraksjoner ex:Hardangervidda-Attraksjoner ;
+    ex:geonameID <https://sws.geonames.org/3146262/> ;
+    ex:locatedOn ex:Hardangervidda ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:HardangerviddaEnd ;
+    ex:turistvegStart ex:HardangerviddaStart ;
+    wgs84_pos:alt 1250 ;
+    wgs84_pos:lat "60.3682514"^^xsd:float ;
+    wgs84_pos:long "7.50331349"^^xsd:float .
+
+ex:Jæren a ex:turistveg ;
+    ex:Length_km 41 ;
+    ex:attraksjoner ex:Jæren-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:JærenEnd ;
+    ex:turistvegStart ex:JærenStart ;
+    wgs84_pos:alt 35 .
+
+ex:Senja a ex:turistveg ;
+    ex:Length_km 102 ;
+    ex:attraksjoner ex:Senja-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:SenjaEnd ;
+    ex:turistvegStart ex:SenjaStart ;
+    wgs84_pos:alt 287 .
+
+ex:Valdresflye a ex:turistveg ;
+    ex:Length_km 49 ;
+    ex:attraksjoner ex:Valdresflye-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:ValdresflyeEnd ;
+    ex:turistvegStart ex:ValdresflyeStart ;
+    wgs84_pos:alt 1389 .
+
+<https://sws.geonames.org/3161921/> a gn:Feature .
+
+ex:Havøysund a ex:turistveg,
+        ex:turistvegAttraksjon ;
+    ex:Length_km 67 ;
+    ex:address [ a ex:Address ;
+            ex:county "Troms og Finnmark" ;
+            ex:hamlet "" ;
+            ex:municipality "Måsøy" ;
+            ex:postalCode "9690" ] ;
+    ex:attraksjoner ex:Havøysund-Attraksjoner ;
+    ex:geonameID <https://sws.geonames.org/779622/> ;
+    ex:locatedOn ex:Havøysund ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:HavøysundEnd ;
+    ex:turistvegStart ex:HavøysundStart ;
+    wgs84_pos:alt 233 ;
+    wgs84_pos:lat "70.99612261"^^xsd:float ;
+    wgs84_pos:long "24.66049257"^^xsd:float .
+
+ex:Helgelandskysten a ex:turistveg ;
+    ex:Length_km 433 ;
+    ex:attraksjoner ex:Helgelandskysten-Attraksjoner ;
+    ex:totalFerries 6 ;
+    ex:turistvegEnd ex:HelgelandskystenEnd ;
+    ex:turistvegStart ex:HelgelandskystenStart ;
+    wgs84_pos:alt 346 .
+
+ex:Rondane a ex:turistveg ;
+    ex:Length_km 75 ;
+    ex:attraksjoner ex:Rondane-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:RondaneEnd ;
+    ex:turistvegStart ex:RondaneStart ;
+    wgs84_pos:alt 1060 .
+
+ex:Sognefjellet a ex:turistveg ;
+    ex:Length_km 108 ;
+    ex:attraksjoner ex:Sognefjellet-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:SognefjelletEnd ;
+    ex:turistvegStart ex:SognefjelletStart ;
+    wgs84_pos:alt 1434 .
+
+ex:Varanger a ex:turistveg ;
+    ex:Length_km 160 ;
+    ex:attraksjoner ex:Varanger-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:VarangerEnd ;
+    ex:turistvegStart ex:VarangerStart ;
+    wgs84_pos:alt 123 .
+
+<https://sws.geonames.org/3152591/> a gn:Feature .
+
+ex:GamleStrynefjellsvegen a ex:turistveg,
+        ex:turistvegAttraksjon ;
+    ex:Length_km 27 ;
+    ex:address [ a ex:Address ;
+            ex:county "Innlandet" ;
+            ex:hamlet "" ;
+            ex:municipality "Skjåk" ;
+            ex:postalCode "2695" ] ;
+    ex:attraksjoner ex:GamleStrynefjellsvegen-Attraksjoner ;
+    ex:geonameID <https://sws.geonames.org/9536660/> ;
+    ex:locatedOn ex:GamleStrynefjellsvegen ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:GamleStrynefjellsvegenEnd ;
+    ex:turistvegStart ex:GamleStrynefjellsvegenStart ;
+    wgs84_pos:alt 1139 ;
+    wgs84_pos:lat "61.97848069"^^xsd:float ;
+    wgs84_pos:long "7.46253322"^^xsd:float .
+
+ex:Geiranger-Trollstigen a ex:turistveg ;
+    ex:Length_km 104 ;
+    ex:attraksjoner ex:Geiranger-Trollstigen-Attraksjoner ;
+    ex:totalFerries 1 ;
+    ex:turistvegEnd ex:Geiranger-TrollstigenEnd ;
+    ex:turistvegStart ex:Geiranger-TrollstigenStart ;
+    wgs84_pos:alt 1038 .
+
+ex:Hardanger a ex:turistveg ;
+    ex:Length_km 158 ;
+    ex:attraksjoner ex:Hardanger-Attraksjoner ;
+    ex:totalFerries 2 ;
+    ex:turistvegEnd ex:HardangerEnd ;
+    ex:turistvegStart ex:HardangerStart ;
+    wgs84_pos:alt 275 .
+
+ex:Atlanterhavsvegen a ex:turistveg ;
+    ex:Length_km 36 ;
+    ex:attraksjoner ex:Atlanterhavsvegen-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:AtlanterhavsvegenEnd ;
+    ex:turistvegStart ex:AtlanterhavsvegenStart ;
+    wgs84_pos:alt 30 .
+
+ex:Gaularfjellet a ex:turistveg ;
+    ex:Length_km 114 ;
+    ex:attraksjoner ex:Gaularfjellet-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:GaularfjelletEnd ;
+    ex:turistvegStart ex:GaularfjelletStart ;
+    wgs84_pos:alt 784 .
+
+ex:Ryfylke a ex:turistveg ;
+    ex:Length_km 260 ;
+    ex:attraksjoner ex:Ryfylke-Attraksjoner ;
+    ex:totalFerries 2 ;
+    ex:turistvegEnd ex:RyfylkeEnd ;
+    ex:turistvegStart ex:RyfylkeStart ;
+    wgs84_pos:alt 972 .
+
+ex:Lofoten a ex:turistveg ;
+    ex:Length_km 230 ;
+    ex:attraksjoner ex:Lofoten-Attraksjoner ;
+    ex:totalFerries 0 ;
+    ex:turistvegEnd ex:LofotenEnd ;
+    ex:turistvegStart ex:LofotenStart ;
+    wgs84_pos:alt 59 .
+
